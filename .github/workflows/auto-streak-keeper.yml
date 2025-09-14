@@ -24,10 +24,10 @@ jobs:
        uses: bmiit145/auto-streak-keeper@main
        with:
          file-path: "public/auto-streak/data.txt"
-         min-commits: 2
+         min-commits: 3
          max-commits: 5
          commit-message: "Daily streak maintenance"
-         user-name: "bmiit145"
-         user-email: "21bmiit145@gmail.com"
+         user-name: "aniket886"
+         user-email: "aniket.gmu@gmail.com"
          github-token: ${{ secrets.GITHUB_TOKEN }}
          branch-name: "main"
